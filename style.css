@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card {
+    margin: 100px auto;
+    width: 800px;
+    height: 550px;
+    /* border: 2px solid black; */
+    /* display: grid;
+    grid-template-columns: 1fr 2fr; */
+    display: flex;
+    flex-direction: row;
+}
+
+.coffeeNames {
+    width: 300px;
+    height: inherit;
+    margin: 20px 0 20px 20px;
+}
+
+.coffeeDrink {
+    font-size: 18px;
+    width: inherit;
+    min-height: 30px;
+    border: 1px solid rgb(197, 191, 191);
+    padding: 10px 0 10px 10px;
+}
+
+.coffeeDrink:hover {
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+
+.windowDemonstration {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+img {
+    pointer-events: none;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    left: 100px;
+
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+}
+
+#layer1,
+#layer2,
+#layer3,
+#layer4 {
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    left: 100px;
+}
+
+#layer1 {
+    top: 47px;
+}
+
+#layer2 {
+    top: 107px;
+}
+
+#layer3 {
+    top: 167px;
+}
+
+#layer4 {
+    top: 227px;
+
+}
+
+.hide {
+    display: none;
+}

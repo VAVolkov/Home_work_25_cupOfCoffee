@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="card">
+
+        <div class="coffeeNames">
+            <div class="coffeeDrink hide"> </div>
+        </div>
+        <div class="windowDemonstration">
+            <div class="inner">
+                <div id="layer1"></div>
+                <div id="layer2"></div>
+                <div id="layer3"></div>
+                <div id="layer4"></div>
+            </div>
+            <img src="img/cup.png">
+        </div>
+    </div>
+
+    <script src="createReceptJson.js"></script>
+    <script src="main.js"></script>
+    <script>
+        const cup = new Coffee();
+        cup.init();
+
+    </script>
+
+
+</body>
+
+</html>
